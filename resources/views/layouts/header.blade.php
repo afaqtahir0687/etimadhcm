@@ -1,9 +1,12 @@
 <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
-        <h1 class="sitename">Etimad HCM</h1>
-      </a>
+    <div class="text-center">
+    <a href="{{url('/')}}" class="logo d-block">
+        <img src="assets/img/logo/eitmad.png" alt="Logo Eitmad">
+    </a>
+    <p class="sitename mt-2">Human Capital Management System (HCM)</p>
+</div>
 
       <nav id="navmenu" class="navmenu">
         <ul>
