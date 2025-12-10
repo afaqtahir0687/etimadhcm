@@ -74,12 +74,10 @@
         <div class="row gy-4">
           <div class="col-xl-7 col-lg-6 video-box d-flex justify-content-center align-items-center position-relative" 
               data-aos="zoom-out" data-aos-delay="100">
-
-            <img src="assets/img/featureimg/graphs.png" alt="" class="img-fluid">
-
+            <img src="assets/img/featureimg/graphs.png" alt="Graph Image" class="img-fluid" style="cursor:pointer"
+              data-bs-toggle="modal" data-bs-target="#imageModal">
             <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="play-btn"></a>
           </div>
-
 
           <div class="col-xl-5 col-lg-6 d-flex flex-column justify-content-center px-lg-5" data-aos="fade-up" data-aos-delay="200">
             <h3>Key Features</h3>
@@ -110,108 +108,147 @@
             </div><!-- End Icon Box -->
           </div>
         </div>
-
+      </div>
+    </section><!-- /Features Section -->
+      <!-- Image Popup Modal -->
+      <div class="modal fade" id="imageModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content bg-transparent border-0">
+            <img src="assets/img/featureimg/graphs.png" class="img-fluid rounded">
+          </div>
+        </div>
       </div>
 
-    </section><!-- /Features Section -->
-
-
-
     <section id="features" class="features section">
-      <div class="container">
-        <div class="row gy-4">
-         
+  <div class="container">
+    <div class="row gy-4">
 
+      <div class="col-xl-5 col-lg-6 d-flex flex-column justify-content-center px-lg-5" data-aos="fade-up" data-aos-delay="200">
+        <h3>Key Features</h3>
+        <p>Explore the comprehensive features that make EtimadHCM the ultimate solution for your organization.</p>
 
-          <div class="col-xl-5 col-lg-6 d-flex flex-column justify-content-center px-lg-5" data-aos="fade-up" data-aos-delay="200">
-            <h3>Key Features</h3>
-            <p>Explore the comprehensive features that make EtimadHCM the ultimate solution for your organization.</p>
-
-            <div class="icon-box d-flex position-relative">
-              <i class="bi bi-easel flex-shrink-0"></i>
-              <div>
-                <h4 class="title"><a href="" class="stretched-link">4. Multiple Locations Supported</a></h4>
-                <p class="description">Secure, flexible, and accessible—powered by the cloud.</p>
-              </div>
-            </div><!-- End Icon Box -->
-
-            <div class="icon-box d-flex position-relative">
-              <i class="bi bi-patch-check flex-shrink-0"></i>
-              <div>
-                <h4 class="title"><a href="" class="stretched-link">5. Economical & Flexible </a></h4>
-                <p class="description">Simple, intuitive, and effortless to use.</p>
-              </div>
-            </div><!-- End Icon Box -->
-
-            <div class="icon-box d-flex position-relative">
-              <i class="bi bi-brightness-high flex-shrink-0"></i>
-              <div>
-                <h4 class="title"><a href="" class="stretched-link">6. Compliance Features</a></h4>
-                <p class="description">Work from any device with full support for PC and mobile browsing.</p>
-              </div>
-            </div><!-- End Icon Box -->
-          </div>
-           <div class="col-xl-7 col-lg-6 video-box d-flex justify-content-center align-items-center position-relative" 
-              data-aos="zoom-out" data-aos-delay="100">
-
-            <img src="assets/img/featureimg/smartphone-etimad_main.png" alt="" class="img-fluid">
-
-            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="play-btn"></a>
+        <div class="icon-box d-flex position-relative">
+          <i class="bi bi-easel flex-shrink-0"></i>
+          <div>
+            <h4 class="title"><a href="" class="stretched-link">4. Multiple Locations Supported</a></h4>
+            <p class="description">Secure, flexible, and accessible—powered by the cloud.</p>
           </div>
         </div>
 
+        <div class="icon-box d-flex position-relative">
+          <i class="bi bi-patch-check flex-shrink-0"></i>
+          <div>
+            <h4 class="title"><a href="" class="stretched-link">5. Economical & Flexible</a></h4>
+            <p class="description">Simple, intuitive, and effortless to use.</p>
+          </div>
+        </div>
+
+        <div class="icon-box d-flex position-relative">
+          <i class="bi bi-brightness-high flex-shrink-0"></i>
+          <div>
+            <h4 class="title"><a href="" class="stretched-link">6. Compliance Features</a></h4>
+            <p class="description">Work from any device with full support for PC and mobile browsing.</p>
+          </div>
+        </div>
       </div>
 
-    </section><!-- /Features Section -->
+      <div class="col-xl-7 col-lg-6 video-box d-flex justify-content-center align-items-center position-relative"
+        data-aos="zoom-out" data-aos-delay="100">
+
+        <!-- Clickable Image -->
+        <img src="assets/img/featureimg/smartphone-etimad_main.png"
+             alt="Graph Image"
+             class="img-fluid"
+             style="cursor:pointer"
+             data-bs-toggle="modal"
+             data-bs-target="#imageModalMobile">
+
+        <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="play-btn"></a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Modal -->
+<!-- Modal -->
+<div class="modal fade" id="imageModalMobile" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-transparent border-0">
+      <img src="assets/img/featureimg/smartphone-etimad_main.png"
+           class="img-fluid rounded"
+           style="max-width: 70%; height: auto; margin: auto;">
+    </div>
+  </div>
+</div>
+
 
 
 
      <!-- Features Section -->
-    <section id="features" class="features section">
-      <div class="container">
-        <div class="row gy-4">
-          <div class="col-xl-7 col-lg-6 video-box d-flex justify-content-center align-items-center position-relative" 
-              data-aos="zoom-out" data-aos-delay="100">
+    <!-- ====================== SECTION 3 ====================== -->
+<section id="features-3" class="features section">
+  <div class="container">
+    <div class="row gy-4">
 
-            <img src="assets/img/featureimg/etimad_screenshot.jpg" alt="" class="img-fluid">
+      <div class="col-xl-7 col-lg-6 video-box d-flex justify-content-center align-items-center position-relative"
+           data-aos="zoom-out" data-aos-delay="100">
 
-            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="play-btn"></a>
+        <img src="assets/img/featureimg/etimad_screenshot.jpg"
+             alt="Screenshot"
+             class="img-fluid"
+             style="cursor:pointer"
+             data-bs-toggle="modal"
+             data-bs-target="#imageModal3">
+
+        <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="play-btn"></a>
+      </div>
+
+      <div class="col-xl-5 col-lg-6 d-flex flex-column justify-content-center px-lg-5"
+           data-aos="fade-up" data-aos-delay="200">
+
+        <h3>Key Features</h3>
+        <p>Explore the comprehensive features that make EtimadHCM the ultimate solution for your organization.</p>
+
+        <div class="icon-box d-flex position-relative">
+          <i class="bi bi-easel flex-shrink-0"></i>
+          <div>
+            <h4 class="title">7. AI Policies Support</h4>
+            <p class="description">Secure, flexible, and accessible—powered by the cloud.</p>
           </div>
+        </div>
 
+        <div class="icon-box d-flex position-relative">
+          <i class="bi bi-patch-check flex-shrink-0"></i>
+          <div>
+            <h4 class="title">8. Compensation & Benefits Framework</h4>
+            <p class="description">Simple, intuitive, and effortless to use.</p>
+          </div>
+        </div>
 
-          <div class="col-xl-5 col-lg-6 d-flex flex-column justify-content-center px-lg-5" data-aos="fade-up" data-aos-delay="200">
-            <h3>Key Features</h3>
-            <p>Explore the comprehensive features that make EtimadHCM the ultimate solution for your organization.</p>
-
-            <div class="icon-box d-flex position-relative">
-              <i class="bi bi-easel flex-shrink-0"></i>
-              <div>
-                <h4 class="title"><a href="" class="stretched-link">7. AI Policies Support</a></h4>
-                <p class="description">Secure, flexible, and accessible—powered by the cloud.</p>
-              </div>
-            </div><!-- End Icon Box -->
-
-            <div class="icon-box d-flex position-relative">
-              <i class="bi bi-patch-check flex-shrink-0"></i>
-              <div>
-                <h4 class="title"><a href="" class="stretched-link">8. compensation & Benifits Framework</a></h4>
-                <p class="description">Simple, intuitive, and effortless to use.</p>
-              </div>
-            </div><!-- End Icon Box -->
-
-            <div class="icon-box d-flex position-relative">
-              <i class="bi bi-brightness-high flex-shrink-0"></i>
-              <div>
-                <h4 class="title"><a href="" class="stretched-link">9. AI Driven Organograms</a></h4>
-                <p class="description">Work from any device with full support for PC and mobile browsing.</p>
-              </div>
-            </div><!-- End Icon Box -->
+        <div class="icon-box d-flex position-relative">
+          <i class="bi bi-brightness-high flex-shrink-0"></i>
+          <div>
+            <h4 class="title">9. AI Driven Organograms</h4>
+            <p class="description">Work from any device with full support for PC and mobile browsing.</p>
           </div>
         </div>
 
       </div>
+    </div>
+  </div>
+</section>
 
-    </section><!-- /Features Section -->
+<!-- Modal 3 -->
+<div class="modal fade" id="imageModal3" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-transparent border-0 shadow-none">
+      <img src="assets/img/featureimg/etimad_screenshot.jpg"
+           class="img-fluid rounded"
+           style="max-width:100%; height:auto;">
+    </div>
+  </div>
+</div>
 
     <!-- UAE Specific Features Section -->
     <section id="uae-features" class="features section">
@@ -319,64 +356,145 @@
 
       <div class="container">
 
-        <div class="row gy-4">
+        <div class="row g-4">
 
-          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-briefcase icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="service-details.html" class="stretched-link">Lorem Ipsum</a></h4>
-                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                <h4 class="title">
+                  <a href="service-details.html" class="stretched-link">
+                    AI Driven Comprehensive HR Policy Helpdesk
+                  </a>
+                </h4>
+                <p class="description">
+                  Delivering instant, accurate policy guidance through an AI-driven helpdesk that streamlines employee support and reduces resolution time.
+                </p>
               </div>
             </div>
-          </div><!-- End Service Item -->
+          </div>
 
-          <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-card-checklist icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="service-details.html" class="stretched-link">Dolor Sitema</a></h4>
-                <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                <h4 class="title"><a href="service-details.html" class="stretched-link">AI Driven Dynamic Organogram</a></h4>
+                <p class="description">Revolutionizing organizational mapping with AI-powered tools that simplify organogram creation and deliver deeper structural insights.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-bar-chart icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="service-details.html" class="stretched-link">Sed ut perspiciatis</a></h4>
-                <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                <h4 class="title"><a href="service-details.html" class="stretched-link">Comprehensive Compensation and Benefits Framework</a></h4>
+                <p class="description">To provide employees with fair rewards, meaningful incentives, and essential support that promote motivation and long-term commitment</p>
               </div>
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-binoculars icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="service-details.html" class="stretched-link">Magni Dolores</a></h4>
-                <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                <h4 class="title"><a href="service-details.html" class="stretched-link">Extensive Dashboard Reporting Facility</a></h4>
+                <p class="description">To deliver clear, real-time insights through dynamic visuals, enabling faster, smarter, and more informed decision-making.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+          <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="500">
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-brightness-high icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="service-details.html" class="stretched-link">Nemo Enim</a></h4>
-                <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                <h4 class="title"><a href="service-details.html" class="stretched-link">3 Tier Request & Approval Management System</a></h4>
+                <p class="description">To streamline workflows by routing requests through structured levels of review, ensuring accuracy, transparency, and timely approvals.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
+          <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="600">
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="service-details.html" class="stretched-link">Eiusmod Tempor</a></h4>
-                <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                <h4 class="title"><a href="service-details.html" class="stretched-link">Official Communications / Letters Management System</a></h4>
+                <p class="description">To centralize and streamlines the creation, tracking, and storage of all official correspondence, ensuring accuracy</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+           <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item d-flex position-relative h-100">
+              <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
+              <div>
+                <h4 class="title"><a href="service-details.html" class="stretched-link">Employee Database Management System</a></h4>
+                <p class="description">To securely organizes and centralizes all employee information, ensuring quick access, accurate records, and efficient HR operations.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+           <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item d-flex position-relative h-100">
+              <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
+              <div>
+                <h4 class="title"><a href="service-details.html" class="stretched-link">Employee Onboarding & Assets Assignment</a></h4>
+                <p class="description">To ensure a smooth start for new hires by streamlining orientation processes and timely allocation of required tools and resources.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+           <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item d-flex position-relative h-100">
+              <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
+              <div>
+                <h4 class="title"><a href="service-details.html" class="stretched-link">Expenses & Travel Management System</a></h4>
+                <p class="description">To simplify the submission, approval, and tracking of travel and expense claims, ensuring transparency, control, and timely reimbursements.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+           <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item d-flex position-relative h-100">
+              <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
+              <div>
+                <h4 class="title"><a href="service-details.html" class="stretched-link">Shift, Attendance & Leaves Management System</a></h4>
+                <p class="description">To efficiently manages employee schedules, tracks attendance, and automates leave processes to ensure accuracy and workforce productivity.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+           <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item d-flex position-relative h-100">
+              <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
+              <div>
+                <h4 class="title"><a href="service-details.html" class="stretched-link">Loans & Advances Management System</a></h4>
+                <p class="description">To streamline the request, approval, and tracking of employee loans and advances, ensuring transparency, accuracy, and timely recoveries.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item d-flex position-relative h-100">
+              <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
+              <div>
+                <h4 class="title"><a href="service-details.html" class="stretched-link">Scaleable Payroll Management System (Comprehensive Legal Compliances & Tax Management)</a></h4>
+                <p class="description">To ensure accurate, compliant, and tax-efficient salary processing while seamlessly adapting to organizational growth and changing legal requirements.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+          <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item d-flex position-relative h-100">
+              <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
+              <div>
+                <h4 class="title"><a href="service-details.html" class="stretched-link">Exit Management System (including Resignation/Termination, Exit Clearance, Gratuity/PF, Final Settlement, Certificates & Payslips)</a></h4>
+                <p class="description">To streamline the entire employee offboarding process—from resignation or termination to clearances, benefits, and final settlements—ensuring accuracy, transparency, and a smooth closure experience.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+          
+
+            <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item d-flex position-relative h-100">
+              <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
+              <div>
+                <h4 class="title"><a href="service-details.html" class="stretched-link">Robust Monthly Payroll Operations, Review & Audit Facilities</a></h4>
+                <p class="description">To ensure accurate salary processing with built-in validation and auditing tools that enhance compliance, transparency, and operational reliability.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -918,8 +1036,16 @@
             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
               <i class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
-                <h3>Address</h3>
+                <h3>Head Office</h3>
                 <p>FAIS Associates Pvt. Ltd<br>44 B, Phase-3 Govt. Employees Cooperative Housing Society Phase 3, Lahore, 54700, Pakistan</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Regional Office (UAE)</h3>
+                <p>Office No. 1004-B, 1st Floor,<br>MISA Business Center, Wavez by Danube Properties, Liwan, Dubai, UAE</p>
               </div>
             </div><!-- End Info Item -->
 
@@ -927,7 +1053,7 @@
               <i class="bi bi-telephone flex-shrink-0"></i>
               <div>
                 <h3>Call Us</h3>
-                <p>+92 311 2747766</p>
+                <p>PAK +92 311 2747766 <br> UAE +971 563 949 889</p>
               </div>
             </div><!-- End Info Item -->
 

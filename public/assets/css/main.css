@@ -1142,11 +1142,54 @@ section,
   font-weight: 600;
 }
 
+
+ .service-item {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  gap: 20px;
+}
+
+.service-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+}
+
+.service-item .icon {
+  font-size: 42px;
+  color: #007bff; /* You can change color */
+}
+
+.service-item .title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.service-item .description {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+}
+.bevel-box {
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+
+  /* Bevel raised effect */
+  box-shadow:
+    inset -2px -2px 4px rgba(255, 255, 255, 0.7),   /* top-left highlight */
+    inset 2px 2px 4px rgba(0, 0, 0, 0.15),          /* bottom-right shadow */
+    0 2px 4px rgba(0, 0, 0, 0.15);                  /* raised outer shadow */
+}
+
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
 .services .service-item {
-  background-color: var(--surface-color);
+  background-color: #d1e9ff;
   padding: 30px;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
   transition: 0.3s;
@@ -1694,7 +1737,7 @@ section,
 # Contact Section
 --------------------------------------------------------------*/
 .contact .info-item+.info-item {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .contact .info-item i {
