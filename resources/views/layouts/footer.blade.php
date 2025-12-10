@@ -19,7 +19,7 @@
           </div>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
+        <!-- <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
             <li><a href="#">Home</a></li>
@@ -61,15 +61,13 @@
             <li><a href="#">Trodelas</a></li>
             <li><a href="#">Flexo</a></li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span> 2025</span> <strong class="px-1 sitename">Etimad HCM</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
+      <p>© <span> 2025</span> <strong class="px-1 sitename">EtimadHCM</strong> <span>All Rights Reserved</span></p>
+    
     </div>
 
   </footer>

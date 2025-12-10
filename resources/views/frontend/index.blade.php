@@ -62,7 +62,6 @@
 
           <h2 class="heading-1">Freemium Package (Upto 05 Employees)</h2>
             <p>Our Freemium Package supports up to five employees and offers the same powerful features as the Premium plan—giving small teams full access without limitations.</p>
-            <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -349,9 +348,10 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <span class="description-title">Services</span>
-        <h2>Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <span class="description-title">Modules</span>
+        <h2>Modules</h2>
+        <p>
+          Modules represent structured, independent components of a system that work together to deliver organized, scalable, and efficient functionality.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -513,7 +513,7 @@
       <div class="container section-title" data-aos="fade-up">
         <span class="description-title">Team</span>
         <h2>Team</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>A Team brings together individuals with diverse skills and strengths to collaborate, support each other, and achieve shared goals effectively and efficiently.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -603,7 +603,22 @@
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                  <span>
+                    As the Founder and CEO of Fais
+                    Associates Pvt Ltd, I bring about
+                    three decades of transformative
+                    expertise in HR, organizational
+                    development, and corporate
+                    governance to empower businesses
+                    with end-to-end professional solutions.
+                    My journey—from shaping HR
+                    frameworks for renowned clients to
+                    lecturing at premier institutions—has
+                    cemented my passion for driving
+                    growth through strategic people
+                    management, operational efficiency,
+                    and compliance excellence.
+                  </span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
