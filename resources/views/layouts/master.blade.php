@@ -8,8 +8,8 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
 
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="http://127.0.0.1:8000/assets/img/logo/eitmad.png" rel="icon" type="image/png">
+    <link href="http://127.0.0.1:8000/assets/img/logo/eitmad.png" rel="apple-touch-icon">
 
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
