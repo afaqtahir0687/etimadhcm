@@ -75,7 +75,6 @@
   <section id="adv-features" class="features section">
 
   <div class="container section-title" data-aos="fade-up">
-    <span class="description-title">Advanced Features</span>
     <h2>Advanced Features</h2>
     <p>Advanced HR and compliance features designed to streamline workforce management</p>
   </div>
@@ -325,7 +324,6 @@
   <section id="uae-features" class="features section">
 
     <div class="container section-title" data-aos="fade-up">
-      <span class="description-title">UAE Specific Features</span>
       <h2>UAE Specific Features</h2>
       <p>Comprehensive compliance and HR features designed specifically for the UAE market</p>
     </div>
@@ -383,7 +381,6 @@
 
   <section id="services" class="services section">
     <div class="container section-title" data-aos="fade-up">
-      <span class="description-title">Modules</span>
       <h2>Modules</h2>
       <p>
         Modules represent structured, independent components of a system that work together to deliver organized,
@@ -469,7 +466,6 @@
 
   <section id="team" class="team section">
     <div class="container section-title" data-aos="fade-up">
-      <span class="description-title">Leadership</span>
       <h2>Leadership</h2>
       <p>A Leadership brings together individuals with diverse skills and strengths to collaborate, support each other, and
         achieve shared goals effectively and efficiently.</p>
@@ -588,7 +584,6 @@
 
   <section id="contact" class="contact section">
     <div class="container section-title" data-aos="fade-up">
-      <span class="description-title">Contact</span>
       <h2>Get in Touch</h2>
       <p>Let’s Start a Conversation That Moves Your Business Forward</p>
     </div>
