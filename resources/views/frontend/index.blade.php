@@ -397,8 +397,11 @@
             <i class="bi bi-bar-chart icon flex-shrink-0"></i>
             <div>
               <h4 class="title"><a href="#" class="stretched-link">Payroll Module</a></h4>
-              <p class="description">To provide employees with fair rewards, meaningful incentives, and essential support
-                that promote motivation and long-term commitment</p>
+             <p class="description">
+                To accurately manage salary processing, deductions, allowances, and payslips while ensuring timely, compliant,
+                and error-free payroll operations.
+              </p>
+
             </div>
           </div>
         </div>
@@ -453,8 +456,10 @@
             <i class="bi bi-bar-chart icon flex-shrink-0"></i>
             <div>
               <h4 class="title"><a href="#" class="stretched-link">Exit Management System</a></h4>
-              <p class="description">To provide employees with fair rewards, meaningful incentives, and essential support
-                that promote motivation and long-term commitment</p>
+             <p class="description">
+                To manage employee separations efficiently by handling final settlements, approvals, documentation,
+                and compliance requirements in a structured and transparent manner.
+              </p>
             </div>
           </div>
         </div>
