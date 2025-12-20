@@ -6,7 +6,7 @@
       <div class="carousel-item active">
         <img src="assets/img/hero-carousel/hero-carousel-1.jpg" alt="">
         <div class="carousel-container" style="text-align: center">
-          <h2>Managing payroll & HR operations<br></h2>
+          <h2>Managing Payroll & HR Operations<br></h2>
           <p>Driving accuracy, compliance, and efficiency by managing end-to-end payroll and HR operations that keep the
             organization running smoothly.</p>
         </div>
@@ -15,7 +15,7 @@
       <div class="carousel-item">
         <img src="assets/img/hero-carousel/hero-carousel-2.jpg" alt="">
         <div class="carousel-container" style="text-align: center">
-          <h2>AI Driven Policies HelpDesk</h2>
+          <h2>AI Driven Policies & Organograms</h2>
           <p>Delivering instant, accurate policy guidance through an AI-driven helpdesk that streamlines employee support
             and reduces resolution time.</p>
         </div>
@@ -24,9 +24,9 @@
       <div class="carousel-item">
         <img src="assets/img/hero-carousel/hero-carousel-3.jpg" alt="">
         <div class="carousel-container" style="text-align: center">
-          <h2>AI Driven Organograms</h2>
-          <p>Revolutionizing organizational mapping with AI-powered tools that simplify organogram creation and deliver
-            deeper structural insights.</p>
+          <h2>Freemium Package <br> <span style="font-size: 28px; color: #FF6D00;">(Upto 05 Employees)</span></h2>
+          <p>Our Freemium Package supports up to five employees and offers the same powerful features as the Premium
+            plan—giving small teams full access without limitations.</p>
         </div>
       </div>
       <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
@@ -43,34 +43,6 @@
 
   </section>
 
-  <section id="about" class="about section">
-
-    <div class="container">
-      <div class="row gy-4">
-        <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
-          <h2 class="heading-1">Where Simplicity Meets Sophistication</h2>
-          <p>
-            Our Human Capital Management (HCM) system is designed to streamline processes, enhance productivity, and
-            empower employees, all while ensuring compliance with local regulations.
-          </p>
-          <ul>
-            <li><i class="bi bi-check2-circle"></i> <span>Employee Self Service Portal <span class="sub-head">Ess</span>
-              </span></li>
-            <li><i class="bi bi-check2-circle"></i> <span>Line Manager Portal <span class="sub-head">LM</span> </span>
-            </li>
-            <li><i class="bi bi-check2-circle"></i> <span>HR Portal <span class="sub-head">HR</span> </span></li>
-            <li><i class="bi bi-check2-circle"></i> <span>Leadership Portal <span class="sub-head">LP</span> </span></li>
-          </ul>
-        </div>
-        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-
-          <h2 class="heading-1">Freemium Package (Upto 05 Employees)</h2>
-          <p>Our Freemium Package supports up to five employees and offers the same powerful features as the Premium
-            plan—giving small teams full access without limitations.</p>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <section id="adv-features" class="features section">
 
@@ -151,11 +123,15 @@
 
   <!-- Features Section -->
   <section id="key-features" class="features section">
+    <div class="container section-title" data-aos="fade-up">
+    <h2>Key Features</h2>
+    <p>Advanced HR and compliance features designed to streamline workforce management</p>
+  </div>
     <div class="container">
       <div class="row gy-4">
         <div class="col-xl-7 col-lg-6 video-box d-flex justify-content-center align-items-center position-relative"
           data-aos="zoom-out" data-aos-delay="100">
-          <img src="assets/img/featureimg/graphs.png" alt="Graph Image" class="img-fluid" style="cursor:pointer"
+          <img src="assets/img/featureimg/graph.jpg" alt="Graph Image" class="img-fluid" style="cursor:pointer"
             data-bs-toggle="modal" data-bs-target="#imageModal">
           <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="play-btn"></a>
         </div>
@@ -196,7 +172,7 @@
   <div class="modal fade" id="imageModal" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered modal-lg">
       <div class="modal-content bg-transparent border-0">
-        <img src="assets/img/featureimg/graphs.png" class="img-fluid rounded">
+        <img src="assets/img/featureimg/graph.jpg" class="img-fluid rounded">
       </div>
     </div>
   </div>
@@ -538,10 +514,6 @@
               <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
               <h3>Imran Shahzad</h3>
               <h4>CEO</h4>
-              <div class="stars">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-              </div>
               <p>
                 <i class="bi bi-quote quote-icon-left"></i>
                 <span>

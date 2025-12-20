@@ -255,6 +255,14 @@ h6 {
 .heading-1{
   font-size: 20px;
   font-weight: bold;
+  text-align: center;
+  display: block;
+  width: 100%;
+  background-color: #FF6D00;
+  color: #ffffff;
+  padding: 12px 25px;
+  border-radius: 4px;
+  margin-bottom: 15px;
 }
 .sub-head{
     font-weight: bold;
@@ -1106,7 +1114,7 @@ section,
   position: absolute;
   inset: 0;
   display: block;
-  width: 100%;
+  width: 80%;
   object-fit: cover;
   z-index: 1;
 }
@@ -1199,7 +1207,7 @@ section,
   font-size: 36px;
   line-height: 0;
   margin-right: 30px;
-  color: var(--accent-color);
+  color: #FF6D00;
 }
 
 .services .service-item .title {
@@ -1223,7 +1231,7 @@ section,
 }
 
 .services .service-item:hover .title a {
-  color: var(--accent-color);
+  color: #FF6D00;
 }
 
 /*--------------------------------------------------------------
@@ -1994,4 +2002,13 @@ section,
   padding: 12px 25px;
   border-radius: 4px;
   text-align: center;      /* optional, looks better */
+}
+.section-title h2 {
+  display: block;
+  width: 100%;
+  background-color: #FF6D00;
+  color: #ffffff;
+  padding: 12px 25px;
+  border-radius: 4px;
+  text-align: center;
 }
