@@ -2,13 +2,11 @@
 @section('content')
 
   <section id="hero" class="hero section dark-background">
-
     <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
-
       <div class="carousel-item active">
         <img src="assets/img/hero-carousel/hero-carousel-1.jpg" alt="">
-        <div class="carousel-container">
-          <h2>1. Managing payroll & HR operations<br></h2>
+        <div class="carousel-container" style="text-align: center">
+          <h2>Managing payroll & HR operations<br></h2>
           <p>Driving accuracy, compliance, and efficiency by managing end-to-end payroll and HR operations that keep the
             organization running smoothly.</p>
         </div>
@@ -16,8 +14,8 @@
 
       <div class="carousel-item">
         <img src="assets/img/hero-carousel/hero-carousel-2.jpg" alt="">
-        <div class="carousel-container">
-          <h2>2. AI Driven Policies HelpDesk</h2>
+        <div class="carousel-container" style="text-align: center">
+          <h2>AI Driven Policies HelpDesk</h2>
           <p>Delivering instant, accurate policy guidance through an AI-driven helpdesk that streamlines employee support
             and reduces resolution time.</p>
         </div>
@@ -25,8 +23,8 @@
 
       <div class="carousel-item">
         <img src="assets/img/hero-carousel/hero-carousel-3.jpg" alt="">
-        <div class="carousel-container">
-          <h2>3. AI Driven Organograms</h2>
+        <div class="carousel-container" style="text-align: center">
+          <h2>AI Driven Organograms</h2>
           <p>Revolutionizing organizational mapping with AI-powered tools that simplify organogram creation and deliver
             deeper structural insights.</p>
         </div>
@@ -74,8 +72,86 @@
     </div>
   </section>
 
+  <section id="adv-features" class="features section">
+
+  <div class="container section-title" data-aos="fade-up">
+    <span class="description-title">Advanced Features</span>
+    <h2>Advanced Features</h2>
+    <p>Advanced HR and compliance features designed to streamline workforce management</p>
+  </div>
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="table-responsive">
+          <table class="table table-bordered table-striped table-hover">
+            <thead>
+              <tr>
+                <th style="width: 30%;">Feature</th>
+                <th style="width: 70%;">Compliance & Benefit</th>
+              </tr>
+            </thead>
+            <tbody>
+
+              <tr>
+                <td><strong>AI Driven Policies</strong></td>
+                <td>
+                  Automatically generate, manage, and update HR policies using AI-powered intelligence to ensure
+                  consistency, regulatory alignment, and reduced manual effort across the organization.
+                </td>
+              </tr>
+
+              <tr>
+                <td><strong>AI Driven Organograms</strong></td>
+                <td>
+                  Dynamically create and maintain organizational charts based on real-time employee data, enabling
+                  clear reporting structures, role visibility, and better workforce planning.
+                </td>
+              </tr>
+
+              <tr>
+                <td><strong>Dashboard Reporting</strong></td>
+                <td>
+                  Centralized dashboards provide real-time insights into workforce metrics, compliance status, and
+                  operational performance, supporting data-driven decision-making.
+                </td>
+              </tr>
+
+              <tr>
+                <td><strong>User Access Control</strong></td>
+                <td>
+                  Role-based access control ensures users only view and manage information relevant to their
+                  responsibilities, enhancing data security and compliance governance.
+                </td>
+              </tr>
+
+              <tr>
+                <td><strong>Tiered Approval System</strong></td>
+                <td>
+                  Multi-level approval workflows ensure transparency, accountability, and proper authorization for HR
+                  processes such as leave, payroll changes, and employee actions.
+                </td>
+              </tr>
+
+              <tr>
+                <td><strong>Letters & Correspondence System</strong></td>
+                <td>
+                  Automated generation and management of employee letters and official correspondence ensures
+                  standardized documentation, faster processing, and audit-ready record keeping.
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
   <!-- Features Section -->
-  <section id="features" class="features section">
+  <section id="key-features" class="features section">
     <div class="container">
       <div class="row gy-4">
         <div class="col-xl-7 col-lg-6 video-box d-flex justify-content-center align-items-center position-relative"
@@ -93,7 +169,7 @@
           <div class="icon-box d-flex position-relative">
             <i class="bi bi-easel flex-shrink-0"></i>
             <div>
-              <h4 class="title"><a href="" class="stretched-link">1. Cloud based Software</a></h4>
+              <h4 class="title">1. Cloud based Software</h4>
               <p class="description">Secure, flexible, and accessible—powered by the cloud.</p>
             </div>
           </div>
@@ -101,7 +177,7 @@
           <div class="icon-box d-flex position-relative">
             <i class="bi bi-patch-check flex-shrink-0"></i>
             <div>
-              <h4 class="title"><a href="" class="stretched-link">2. User Friendly Interface</a></h4>
+              <h4 class="title">2. User Friendly Interface</a>
               <p class="description">Simple, intuitive, and effortless to use.</p>
             </div>
           </div>
@@ -109,7 +185,7 @@
           <div class="icon-box d-flex position-relative">
             <i class="bi bi-brightness-high flex-shrink-0"></i>
             <div>
-              <h4 class="title"><a href="" class="stretched-link">3. PC & Mobile Browser Support</a></h4>
+              <h4 class="title">3. PC & Mobile Browser Support</h4>
               <p class="description">Work from any device with full support for PC and mobile browsing.</p>
             </div>
           </div>
@@ -138,7 +214,7 @@
           <div class="icon-box d-flex position-relative">
             <i class="bi bi-easel flex-shrink-0"></i>
             <div>
-              <h4 class="title"><a href="" class="stretched-link">4. Multiple Locations Supported</a></h4>
+              <h4 class="title">4. Multiple Locations Supporte></h4>
               <p class="description">Secure, flexible, and accessible—powered by the cloud.</p>
             </div>
           </div>
@@ -146,16 +222,14 @@
           <div class="icon-box d-flex position-relative">
             <i class="bi bi-patch-check flex-shrink-0"></i>
             <div>
-              <h4 class="title"><a href="" class="stretched-link">5. Economical & Flexible</a></h4>
-              <p class="description">Simple, intuitive, and effortless to use.</p>
+              <h4 class="title">5. Economical & Flexible</a></              <p class="description">Simple, intuitive, and effortless to use.</p>
             </div>
           </div>
 
           <div class="icon-box d-flex position-relative">
             <i class="bi bi-brightness-high flex-shrink-0"></i>
             <div>
-              <h4 class="title"><a href="" class="stretched-link">6. Compliance Features</a></h4>
-              <p class="description">Work from any device with full support for PC and mobile browsing.</p>
+              <h4 class="title">6. Compliance Features</a></h            <p class="description">Work from any device with full support for PC and mobile browsing.</p>
             </div>
           </div>
         </div>
@@ -303,47 +377,9 @@
     </div>
   </section>
 
-  <section id="stats" class="stats section dark-background">
 
-    <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-      <div class="row gy-4">
-
-        <div class="col-lg-3 col-md-6">
-          <div class="stats-item text-center w-100 h-100">
-            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
-              class="purecounter"></span>
-            <p>Departments</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6">
-          <div class="stats-item text-center w-100 h-100">
-            <span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="1"
-              class="purecounter"></span>
-            <p>Policies</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6">
-          <div class="stats-item text-center w-100 h-100">
-            <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1"
-              class="purecounter"></span>
-            <p>Employees</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6">
-          <div class="stats-item text-center w-100 h-100">
-            <span data-purecounter-start="0" data-purecounter-end="07" data-purecounter-duration="1"
-              class="purecounter"></span>
-            <p>Grades</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </section>
+  
 
   <section id="services" class="services section">
     <div class="container section-title" data-aos="fade-up">
@@ -355,112 +391,23 @@
     </div>
 
     <div class="container">
-
       <div class="row g-4">
-
-        <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="100">
-          <div class="service-item d-flex position-relative h-100">
-            <i class="bi bi-briefcase icon flex-shrink-0"></i>
-            <div>
-              <h4 class="title">
-                <a href="service-details.html" class="stretched-link">
-                  AI Driven Comprehensive HR Policy Helpdesk
-                </a>
-              </h4>
-              <p class="description">
-                Delivering instant, accurate policy guidance through an AI-driven helpdesk that streamlines employee
-                support and reduces resolution time.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="200">
-          <div class="service-item d-flex position-relative h-100">
-            <i class="bi bi-card-checklist icon flex-shrink-0"></i>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">AI Driven Dynamic Organogram</a>
-              </h4>
-              <p class="description">Revolutionizing organizational mapping with AI-powered tools that simplify organogram
-                creation and deliver deeper structural insights.</p>
-            </div>
-          </div>
-        </div>
-
         <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="300">
           <div class="service-item d-flex position-relative h-100">
             <i class="bi bi-bar-chart icon flex-shrink-0"></i>
             <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Comprehensive Compensation and
-                  Benefits Framework</a></h4>
+              <h4 class="title"><a href="#" class="stretched-link">Payroll Module</a></h4>
               <p class="description">To provide employees with fair rewards, meaningful incentives, and essential support
                 that promote motivation and long-term commitment</p>
             </div>
           </div>
         </div>
 
-        <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="400">
-          <div class="service-item d-flex position-relative h-100">
-            <i class="bi bi-binoculars icon flex-shrink-0"></i>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Extensive Dashboard Reporting
-                  Facility</a></h4>
-              <p class="description">To deliver clear, real-time insights through dynamic visuals, enabling faster,
-                smarter, and more informed decision-making.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="500">
-          <div class="service-item d-flex position-relative h-100">
-            <i class="bi bi-brightness-high icon flex-shrink-0"></i>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">3 Tier Request & Approval Management
-                  System</a></h4>
-              <p class="description">To streamline workflows by routing requests through structured levels of review,
-                ensuring accuracy, transparency, and timely approvals.</p>
-            </div>
-          </div>
-        </div>
-
         <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="600">
           <div class="service-item d-flex position-relative h-100">
             <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
             <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Official Communications / Letters
-                  Management System</a></h4>
-              <p class="description">To centralize and streamlines the creation, tracking, and storage of all official
-                correspondence, ensuring accuracy</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="600">
-          <div class="service-item d-flex position-relative h-100">
-            <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Employee Database Management
-                  System</a></h4>
-              <p class="description">To securely organizes and centralizes all employee information, ensuring quick
-                access, accurate records, and efficient HR operations.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="600">
-          <div class="service-item d-flex position-relative h-100">
-            <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Employee Onboarding & Assets
-                  Assignment</a></h4>
-              <p class="description">To ensure a smooth start for new hires by streamlining orientation processes and
-                timely allocation of required tools and resources.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="600">
-          <div class="service-item d-flex position-relative h-100">
-            <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Expenses & Travel Management
+              <h4 class="title"><a href="#" class="stretched-link">Expenses & Travel Management
                   System</a></h4>
               <p class="description">To simplify the submission, approval, and tracking of travel and expense claims,
                 ensuring transparency, control, and timely reimbursements.</p>
@@ -471,18 +418,29 @@
           <div class="service-item d-flex position-relative h-100">
             <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
             <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Shift, Attendance & Leaves
-                  Management System</a></h4>
-              <p class="description">To efficiently manages employee schedules, tracks attendance, and automates leave
-                processes to ensure accuracy and workforce productivity.</p>
+              <h4 class="title"><a href="#" class="stretched-link">Employee Onboarding & Assets
+                  Management</a></h4>
+              <p class="description">To ensure a smooth start for new hires by streamlining orientation processes and
+                timely allocation of required tools and resources.</p>
             </div>
           </div>
         </div>
-        <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="600">
+        <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-item d-flex position-relative h-100">
+            <i class="bi bi-bar-chart icon flex-shrink-0"></i>
+            <div>
+              <h4 class="title"><a href="#" class="stretched-link">Leave & Attendance Management System</a></h4>
+              <p class="description">To provide employees with fair rewards, meaningful incentives, and essential support
+                that promote motivation and long-term commitment</p>
+            </div>
+          </div>
+        </div>
+
+          <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="600">
           <div class="service-item d-flex position-relative h-100">
             <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
             <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Loans & Advances Management
+              <h4 class="title"><a href="#" class="stretched-link">Loans & Advances Management
                   System</a></h4>
               <p class="description">To streamline the request, approval, and tracking of employee loans and advances,
                 ensuring transparency, accuracy, and timely recoveries.</p>
@@ -490,52 +448,25 @@
           </div>
         </div>
 
-        <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="600">
+         <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="300">
           <div class="service-item d-flex position-relative h-100">
-            <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
+            <i class="bi bi-bar-chart icon flex-shrink-0"></i>
             <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Scaleable Payroll Management System
-                  (Comprehensive Legal Compliances & Tax Management)</a></h4>
-              <p class="description">To ensure accurate, compliant, and tax-efficient salary processing while seamlessly
-                adapting to organizational growth and changing legal requirements.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="600">
-          <div class="service-item d-flex position-relative h-100">
-            <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Exit Management System (including
-                  Resignation/Termination, Exit Clearance, Gratuity/PF, Final Settlement, Certificates & Payslips)</a>
-              </h4>
-              <p class="description">To streamline the entire employee offboarding process—from resignation or termination
-                to clearances, benefits, and final settlements—ensuring accuracy, transparency, and a smooth closure
-                experience.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 bevel-box" data-aos="fade-up" data-aos-delay="600">
-          <div class="service-item d-flex position-relative h-100">
-            <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Robust Monthly Payroll Operations,
-                  Review & Audit Facilities</a></h4>
-              <p class="description">To ensure accurate salary processing with built-in validation and auditing tools that
-                enhance compliance, transparency, and operational reliability.</p>
+              <h4 class="title"><a href="#" class="stretched-link">Exit Management System</a></h4>
+              <p class="description">To provide employees with fair rewards, meaningful incentives, and essential support
+                that promote motivation and long-term commitment</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-
   </section>
 
   <section id="team" class="team section">
     <div class="container section-title" data-aos="fade-up">
-      <span class="description-title">Team</span>
-      <h2>Team</h2>
-      <p>A Team brings together individuals with diverse skills and strengths to collaborate, support each other, and
+      <span class="description-title">Leadership</span>
+      <h2>Leadership</h2>
+      <p>A Leadership brings together individuals with diverse skills and strengths to collaborate, support each other, and
         achieve shared goals effectively and efficiently.</p>
     </div>
 
@@ -545,9 +476,9 @@
 
         <div class="col-lg-6 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
           <div class="member">
-            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+            <img src="assets/img/team/team-1.jpg" style="height: 72%" class="img-fluid" alt="">
             <div class="member-content">
-              <h4>Imran Shehzad</h4>
+              <h4>Imran Shahzad</h4>
               <span>Founder & CEO</span>
               <p>
                 MBA, LLB, MSc-HRM (UK),
@@ -569,7 +500,7 @@
         </div>
         <div class="col-lg-6 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
           <div class="member">
-            <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+            <img src="assets/img/team/team-2.jpg"  style="height: 72%" class="img-fluid" alt="">
             <div class="member-content">
               <h4>Mudassar Masood</h4>
               <span>Senior Member Advisory Board</span>
@@ -616,7 +547,7 @@
           <div class="swiper-slide">
             <div class="testimonial-item">
               <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <h3>Imran Shehzad</h3>
+              <h3>Imran Shahzad</h3>
               <h4>CEO</h4>
               <div class="stars">
                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i

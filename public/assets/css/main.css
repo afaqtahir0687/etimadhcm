@@ -312,7 +312,7 @@ h6 {
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--nav-hover-color);
+    color: #FF6D00;
   }
 
   .navmenu .dropdown ul {
@@ -1941,4 +1941,57 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+
+#header {
+  transition: all 0.3s ease;
+  padding: 20px 0;
+}
+
+#header .logo img {
+  max-height: 70px;
+  transition: all 0.3s ease;
+}
+
+#header .sitename {
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+#header.header-scrolled {
+  padding: 8px 0;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+#header.header-scrolled .logo img {
+  max-height: 45px;
+}
+
+#header.header-scrolled .sitename {
+  font-size: 11px;
+}
+.features table thead th {
+  background-color: #FF6D00;
+  color: #ffffff; 
+}
+.section-title h2 {
+  display: inline-block;
+  background-color: #FF6D00;
+  color: #ffffff;
+  padding: 10px 25px;
+  border-radius: 4px;
+}
+    #adv-features h2,
+#uae-features h2,
+#services h2,
+#team h2 {
+  display: block;          /* FULL WIDTH */
+  width: 100%;
+  background-color: #FF6D00;
+  color: #ffffff;
+  padding: 12px 25px;
+  border-radius: 4px;
+  text-align: center;      /* optional, looks better */
 }
